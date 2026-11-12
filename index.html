@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <title>AZAZIL | شمس المعارف الكبرى</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="AZAZIL">AZAZIL</a>
+    <span class="tagline">مكتبة رقمية — كتاب واحد</span>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">المكتبة الرقمية</p>
+      <h1>شمس المعارف الكبرى</h1>
+      <p class="sub">نسخة مصوّرة للقراءة والتصفح</p>
+      <a class="primary" href="#reader">افتح الكتاب</a>
+    </section>
+
+    <section class="reader-section" id="reader">
+      <div class="reader-heading">
+        <div>
+          <p class="eyebrow">الكتاب الوحيد في AZAZIL</p>
+          <h2>قارئ الكتاب</h2>
+        </div>
+        <a class="download" id="downloadLink" href="book.pdf" download>تحميل النسخة PDF</a>
+      </div>
+      <div class="reader" id="readerBox">
+        <div class="empty-state" id="emptyState">
+          <div class="book-mark">✦</div>
+          <h3>أضف نسخة الكتاب لبدء القراءة</h3>
+          <p>ضع ملف النسخة المصوّرة داخل مجلد الموقع وسمّه <bdi>book.pdf</bdi>.</p>
+          <p class="small">لن يعرض الموقع نصاً بديلاً أو نسخة غير موثّقة.</p>
+        </div>
+        <iframe id="pdfViewer" title="شمس المعارف الكبرى" src="book.pdf#toolbar=1&navpanes=0" hidden></iframe>
+      </div>
+      <p class="notice">تأكد من أن النسخة التي تنشرها مسموح بإعادة توزيعها، واذكر بيانات الطبعة أو المخطوطة ومصدرها.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>AZAZIL</span>
+    <span>شمس المعارف الكبرى فقط</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
